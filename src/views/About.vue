@@ -106,4 +106,13 @@ Footer {
   position: fixed;
   bottom: 0px;
 }
+
+@media (max-width: 400px) {
+  .about {
+    width: 100%;
+  }
+  Footer {
+    position: static;
+  }
+}
 </style>

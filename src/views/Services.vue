@@ -160,4 +160,10 @@ Footer {
   position: fixed;
   bottom: 0px;
 }
+
+@media (max-width: 400px) {
+  Footer {
+    position: static;
+  }
+}
 </style>

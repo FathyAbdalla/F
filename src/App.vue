@@ -67,4 +67,13 @@ nav {
 .link:hover {
   color: orangered;
 }
+
+@media (max-width: 400px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
 </style>

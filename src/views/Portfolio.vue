@@ -47,4 +47,13 @@ Footer {
   position: fixed;
   bottom: 0px;
 }
+
+@media (max-width: 400px) {
+  .portfolio .temp {
+    grid-template-columns: 100%;
+  }
+  Footer {
+    position: static;
+  }
+}
 </style>
